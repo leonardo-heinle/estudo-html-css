@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>PlayerKeys - Códigos e Gift Cards com Entrega Rápida</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Compre Cartões, códigos e Gift Cards da PlayStore,
+     XBOX Live, Uber e League of Legends e receba instantâneamente para usar!">
+
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+<a href="index.html"> <header id="cabecalho">
+    <h1 id="h1hd">PlayerKeys</h1>
+  </header></a>
+  <body>
+    <section class="container">
+
+    <section id="esq">
+
+    <nav id="nav1">
+<a href="index.html"><button type="button"> Página inicial </button></a>
+<a href="#carrinho"><button type="button"> Carrinho de Compras </button></a>
+<a href="#formcad"><button type="button"> Cadastro de Dados </button></a>
+<button onclick="consulta()">Gerar consulta de pedido</button>
+
+</nav>
+<nav id="nav2">
+    <form name="meuForm" method="post" id="formcad">
+        <div class="box">
+            <label>Cadastro de Dados</label><br>
+            Nome:<br>
+            <input type="text" id="nome"/><br>
+            CPF:<br>
+            <input type="text" id="cpf"/><br>
+            E-Mail:<br>
+            <input type="text" id="email"/><br>
+            <hr/>
+            <button id="btnAdicionar" onclick="cadastrar()">Cadastrar Cliente</button>
+
+        </div>
+    </form>
+</nav>
+
+
+
+</section>
+<section id="produtos">
+<video src="img/video.mp4" autoplay controls>
+
+</video>
+
+<section id="prod1">
+  <header id="prhd">PK001 - Gift Card PlayStore R$ 10,00</header>
+  <div id="descprod">
+    <p id="textodesc">Produto: Gift Card PlayStore R$ 10,00
+                  <br>Referência: PK001
+                <br>Descrição: Crédito de 10 reais para utilizar na Google PlayStore
+              <br>PREÇO: R$ 10,00
+            <br>ENVIO VIA E-MAIL após a confirmação do pagamento (PRODUTO DIGITAL)</p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd1">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Gift Card PlayStore R$ 10,00', document.getElementById('qtd1').value, '10.00', 1)"> Comprar </button>
+  </div>
+</section>
+  <section id="prod2">
+    <header id="prhd">PK002 - Cartão Presente XBOX  R$ 100,00</header>
+    <div id="descprod">
+      <p id="textodesc">Produto: Cartão Presente XBOX  R$ 100,00
+                    <br>Referência: PK002
+                  <br>Descrição: Crédito de 100 reais para utilizar na XBOX Live
+                <br>PREÇO: R$ 100,00
+              <br>ENVIO VIA E-MAIL após a confirmação do pagamento (PRODUTO DIGITAL)</p>
+              Quantidade: <input type="number" value="1" min="1" max="10" id="qtd2">
+  	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Cartão Presente XBOX  R$ 100,00', document.getElementById('qtd2').value, '100.00', 2)"> Comprar </button>
+    </div>
+</section>
+<section id="prod3">
+  <header id="prhd">PK003 - Gift Card PlayStore R$ 50,00</header>
+  <div id="descprod">
+    <p id="textodesc">Produto: Gift Card PlayStore R$ 50,00
+                  <br>Referência: PK003
+                <br>Descrição: Crédito de 10 reais para utilizar na Google PlayStore
+              <br>PREÇO: R$ 50,00
+            <br>ENVIO VIA E-MAIL após a confirmação do pagamento (PRODUTO DIGITAL)</p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd3">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Gift Card PlayStore R$ 50,00', document.getElementById('qtd3').value, '50.00', 3)"> Comprar </button>
+  </div>
+</section>
+<section id="prod4">
+  <header id="prhd">PK004 - Cartão Pré-Pago UBER R$ 20,00</header>
+  <div id="descprod">
+    <p id="textodesc">Produto: Cartão Pré-Pago UBER R$ 20,00
+                  <br>Referência: PK004
+                <br>Descrição: Crédito de 20 reais para utilizar na plataforma da UBER
+              <br>PREÇO: R$ 20,00
+            <br>ENVIO VIA E-MAIL após a confirmação do pagamento (PRODUTO DIGITAL)</p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd4">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Cartão Pré-Pago UBER R$ 20,00', document.getElementById('qtd4').value, '20.00', 4)"> Comprar </button>
+  </div>
+</section>
+<section id="prod5">
+  <header id="prhd">PK005 - Gift Card PlayStore R$ 100,00</header>
+
+  <div id="descprod">
+    <p id="textodesc">Produto: Gift Card PlayStore R$ 100,00
+                  <br>Referência: PK005
+                <br>Descrição: Crédito de 10 reais para utilizar na Google PlayStore
+              <br>PREÇO: R$ 100,00
+            <br>ENVIO VIA E-MAIL após a confirmação do pagamento  (PRODUTO DIGITAL)</p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd5">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Gift Card PlayStore R$ 100,00', document.getElementById('qtd5').value, '100.00', 5)"> Comprar </button>
+  </div>
+</section>
+<section id="prod6">
+  <header id="prhd">PK006 - Pack de 10 Cartões Presente XBOX
+    <br> R$ 100,00</header>
+
+  <div id="descprod">
+    <p id="textodesc">Produto: Pack Cartão Presente XBOX R$ 100,00 com 10 unidades
+                  <br>Referência: PK006
+                <br>Descrição: 10 Créditos de 100 reais para utilizar na XBOX Live
+              <br>PREÇO: R$ 970,00
+            <br>ENVIO VIA E-MAIL após a confirmação do pagamento (PRODUTO DIGITAL) </p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd6">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pack de 10 Cartões Presente XBOX', document.getElementById('qtd6').value, '970.00', 6)"> Comprar </button>
+  </div>
+</section>
+<section id="prod7">
+  <header id="prhd">PK007 - Cartão Pré-Pago UBER R$ 50,00</header>
+  <div id="descprod">
+    <p id="textodesc">Produto: Cartão Pré-Pago UBER R$ 50,00
+                  <br>Referência: PK007
+                <br>Descrição: Crédito de 50 reais para utilizar na plataforma da UBER
+              <br>PREÇO: R$ 50,00
+            <br>ENVIO VIA E-MAIL após a confirmação do pagamento (PRODUTO DIGITAL) </p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd7">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Cartão Pré-Pago UBER R$ 50,00', document.getElementById('qtd7').value, '50.00', 7)"> Comprar </button>
+  </div>
+</section>
+<section id="prod8">
+  <header id="prhd">PK008 - Cartão Pré-Pago UBER R$ 100,00</header>
+  <div id="descprod">
+    <p id="textodesc">Produto: Cartão Pré-Pago UBER R$ 100,00
+                  <br>Referência: PK008
+                <br>Descrição: Crédito de 100 reais para utilizar na plataforma da UBER
+              <br>PREÇO: R$ 100,00
+            <br>ENVIO VIA E-MAIL após a confirmação do pagamento (PRODUTO DIGITAL) </p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd8">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Cartão Pré-Pago UBER R$ 100,00', document.getElementById('qtd8').value, '100.00', 8)"> Comprar </button>
+  </div>
+</section>
+<section id="prod9">
+  <header id="prhd">PK009 - Cartão Riot Points R$ 50,00 Edição Limitada CBLOL</header>
+  <div id="descprod">
+    <p id="textodesc">Produto: Cartão Riot Points R$ 50,00 Edição Limitada CBLOL
+                  <br>Referência: PK009
+                <br>Descrição: Código de 50 reais em Riot Points.
+              <br>PREÇO: R$ 50,00
+            <br>ENVIO VIA E-MAIL após a confirmação do pagamento (PRODUTO DIGITAL) </p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd9">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Cartão Riot Points R$ 50,00', document.getElementById('qtd9').value, '50.00', 9)"> Comprar </button>
+  </div>
+</section>
+<section id="prod10">
+  <header id="prhd">PK010 - Betorneira 400 litros CSM</header>
+  <div id="descprod">
+    <p id="textodesc">Produto: Betorneira
+                  <br>Referência: PK010
+                <br>Descrição: Betorneira de 400 litros para concreto.
+              <br>PREÇO: R$ 3100,00
+            <br>ENVIO VIA TRANSPORTADORA após a confirmação do pagamento (PRODUTO FÍSICO) </p>
+            Quantidade: <input type="number" value="1" min="1" max="10" id="qtd10">
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Gift Card PlayStore R$ 10,00', document.getElementById('qtd10').value, '10.00', 10)"> Comprar </button>
+  </div>
+</section>
+
+
+</section>
+<section>
+  <aside class="direito">
+      <div id="carrinho">
+          <h3>Carrinho de Compras</h3>
+      <ul>
+
+      </ul>
+
+      <script>
+ function AddCarrinho(produto, qtd, valor, posicao)
+ {
+ localStorage.setItem("produto" + posicao, produto);
+ localStorage.setItem("qtd" + posicao, qtd);
+ valor = valor * qtd;
+ localStorage.setItem("valor" + posicao, valor);
+ alert("Produto adicionado ao carrinho!");
+ }
+ function cadastrar()
+{
+    localStorage.setItem(nome.value, cpf.value, email.value);
+    alert("Cliente Cadastrado!");
+}
+
+
+ function compra(){
+     alert("Processo de compra finalizado! Obrigado por comprar na PlayerKeys. Para finalizar o pagamento do seu pedido, gere o boleto através do nosso site!.");
+ }
+ function consulta(){
+     alert("Suas Keys serão enviadas para seu E-Mail de Cadastro até 24 horas após a confirmação do pagamento. Para mais informações ligue para 4002-8922.");
+ }
+ function boleto(){
+     alert("O boleto referente ao seu pedido foi enviado para o seu E-Mail de cadastro!");
+     localStorage.clear();
+      location.reload();
+ }
+</script>
+<div id="cli"> </div>
+<div id="itens"> </div>
+
+<div>Total: <span id="total"></span> </div>
+
+<script>
+ var total = 0; // variável que retorna o total dos produtos que estão na LocalStorage.
+ var i = 0;     // variável que irá percorrer as posições
+ var valor = 0; // variável que irá receber o preço do produto convertido em Float.
+
+ for(i=1; i<=99; i++) // verifica até 99 produtos registrados na localStorage
+ {
+	 var prod = localStorage.getItem("produto" + i + ""); // verifica se há recheio nesta posição.
+	 if(prod != null)
+	 {
+		 // exibe os dados da lista dentro da div itens
+		 document.getElementById("itens").innerHTML += localStorage.getItem("qtd" + i) + " x ";
+		 document.getElementById("itens").innerHTML += localStorage.getItem("produto" + i);
+		 document.getElementById("itens").innerHTML += " ";
+		 document.getElementById("itens").innerHTML += "R$: " + localStorage.getItem("valor" + i) + "<hr>";
+
+		 // calcula o total dos recheios
+		 valor = parseFloat(localStorage.getItem("valor" + i)); // valor convertido com o parseFloat()
+		 total = (total + valor); // arredonda para 2 casas decimais com o .toFixed(2)
+	 }
+ }
+ // exibe o total dos recheios
+ document.getElementById("total").innerHTML = total.toFixed(2);
+</script>
+
+
+<button type="button" onclick=" localStorage.clear(); location.reload();"> Limpar Carrinho </button>
+<a href="index.html"> <button > Atualizar Carrinho </button></a>
+
+<button type="button" onclick=" compra();"> Finalizar Compra</button>
+<button type="button" onclick=" boleto();"> Gerar Boleto</button>
+
+
+
+  </div>
+
+
+
+
+
+  </aside>
+</section>
+
+
+</section>
+
+<footer>
+  <h1>Obrigado por acessar!</h1>
+  <h2>Leonardo Heinle® 03/07/2019</h2>
+
+
+</footer>
+
+
+
+
+  </body>
+</html>

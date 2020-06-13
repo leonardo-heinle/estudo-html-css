@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#section_principal{
+    width: 100%;
+    height: 350%;
+    background-color: #424242;
+    position: absolute;
+    
+   
+    
+}
+#logo{
+    width: 33%;
+    height: 30%;
+    background-image: url(../img/logo.png);
+    position: absolute;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    bottom: 82.5%;
+    
+}
+#cabecalho{
+	width: 100%;
+	height: 5%;
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#424242+0,1e1e1e+100,207cca+100 */
+background: #424242; /* Old browsers */
+background: -moz-linear-gradient(top, #424242 0%, #1e1e1e 100%, #207cca 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #424242 0%,#1e1e1e 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #424242 0%,#1e1e1e 100%,#207cca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+	display:flex;
+	align-items:flex-end;
+    box-shadow: 3px 3px 15px black;
+    
+}
+#menu_superior{
+	width: 100%;
+	height: 29%;
+	background-color:#ee2c4a ;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+    margin-left: 51.5%;
+    margin-bottom: 4.5%;
+    box-shadow: 1px 1px 3px black;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+  
+    
+    
+    
+}
+#links_superior {
+	width:100%;
+ }
+
+#links_superior li{
+	color:white;
+    
+    font-weight:bold;
+	font-size:3.5vh;
+    font-family:Bahnschrift;
+	display:inline;
+	padding:4%;
+    transition: 0.3s;
+    margin-right: 2;
+    
+    
+}
+
+a:link {
+   color: white;
+    text-decoration:none
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #424242;
+    transition: 1s;
+}
+
+a:active {
+    color: white;
+    
+}
+
+
+#fotos{
+    transition-duration: 9s;
+    width: 100%;
+    height: 28.5%;
+    background-color: blue;
+    
+    
+    
+}
+.pag{
+    width: 100%;
+    height: 28.5%;
+    margin-bottom: 7%;
+    
+    
+}
+#sobre{
+    width: 100%;
+    height: 28.5%;
+    background-color: blue;
+    background-image: url(../img/foto4.png);
+    background-size: 100%;
+    
+}
+
+
+#titulos{
+width: 100%;
+    height: 28.5%;
+    background-color: blue;
+    background-image: url(../img/foto5.png);
+    background-size: 100%;
+    
+}
+#contato{
+    width: 100%;
+    height: 28.5%;
+    
+    background-image: url(../img/foto3.png);
+    background-size: 100%;
+    
+}
+#organizador{
+	width: 100%;
+	height: 100%;
+	display:flex;
+}
+
+#container_esquerdo{
+	
+    width: 30%;
+	height:70%;
+    margin-top: 7%;
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ee2c4a+0,ff070b+100,207cca+100 */
+background: #ee2c4a; /* Old browsers */
+background: -moz-linear-gradient(top, #ee2c4a 0%, #ff070b 100%, #207cca 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ee2c4a 0%,#ff070b 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ee2c4a 0%,#ff070b 100%,#207cca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee2c4a', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    box-shadow: 1px 1px 10px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+form{
+    width: 90%;
+    height: 70%;
+    margin-top: -10%;
+    margin-left: -10%;
+    font-family: Bahnschrift;
+    text-shadow: 1px 1px 4px #000;
+   
+}
+#titulo_formulario{
+    font-size: 3vh;
+    margin-left: 25%;
+    text-shadow: 1px 1px 4px #000;
+}
+form input{
+    width: 60%;
+    border-radius: 2px;
+    border: none;
+    background-color: white;
+    color: #eb664a;
+    font-weight: bold;
+    font-size: 2.9vh;
+}
+fieldset{
+    width: 80%;
+    border: none;
+    margin-left: 5%;
+}
+.formulario{
+    padding: 5%;
+}
+textarea{
+    width: 99%;
+    font-size: 3vh;
+    border-radius: 10px;
+    border: none;
+}
+label{
+    color: white;
+    font-size: 2.3vh;
+    font-weight: bold;
+}
+legend{
+    color: white;
+    font-size: 2.3vh;
+    font-weight: bold;
+    padding-bottom: 5%;
+    
+}
+.btn{
+    width: 45%;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: #424242;
+    color: white;
+    cursor: pointer;
+    
+}
+#espaco_btn{
+    padding-top: 15%;
+    
+}
+#texto{
+    width: 65%;
+    height: 100%;
+    color: #ee2c4a;
+    font-family: Bahnschrift;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    filter: blur(0px);
+    padding-left: 20%;
+}
+#texto h1{
+    text-align: center;
+    color: #ee2c4a;
+    font-size: 5.5vh;
+    text-shadow: 2px 2px 5px black;
+    filter: blur(0px);
+}
+#texto h2{
+    text-align: center;
+    color: #ee2c4a;
+    font-size: 5.5vh;
+    text-shadow: 2px 2px 5px black;
+    filter: blur(0px);
+}
+#texto p{
+    text-indent: 7%;
+    font-size: 3.5vh;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+#conteudo_principal{
+	width: 70%;
+	height: 100%;
+    display: flex;
+}
+
+#texto_contato{
+    text-align:center;
+    color: #ee2c4a;
+    font-family: Bahnschrift;
+    font-size: 7.5vh;
+    text-shadow: 2px 2px 5px black;
+    filter: blur(0px);
+    margin-left: 10%;
+    margin-top: 4%;
+    
+   
+}
+#texto_redes{
+    text-align:center;
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 5.5vh;
+    text-shadow: 2px 2px 5px black;
+    filter: blur(0px);
+    margin-top: 20%;
+    
+    margin-left: 8%;
+}
+
+
+#menu_lateral{
+	width: 100%;
+	height: 59%;
+	background-color:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ee2c4a+0,ff070b+100,207cca+100 */
+background: #ee2c4a; /* Old browsers */
+background: -moz-linear-gradient(top, #ee2c4a 0%, #ff070b 100%, #207cca 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ee2c4a 0%,#ff070b 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ee2c4a 0%,#ff070b 100%,#207cca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee2c4a', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */ ;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+    margin-left: 182.5%;
+    margin-top: 17.5%;
+     border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    
+   
+    
+}
+#links_lateral {
+	width:100%;
+ }
+
+#links_lateral li{
+	color:white;
+    font-weight:bold;
+	font-size:4.5vh;
+    font-family:Bahnschrift;
+	display:block;
+	padding:5%;
+    transition: 0.3s;
+    margin-right: 3%;
+    position: static;
+    
+}
+
+
+#rodape{
+	
+    width:100%;
+	height:33.5%;
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#424242+0,1e1e1e+100,207cca+100 */
+background: #424242; /* Old browsers */
+background: -moz-linear-gradient(top, #424242 0%, #1e1e1e 100%, #207cca 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #424242 0%,#1e1e1e 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #424242 0%,#1e1e1e 100%,#207cca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */;
+    
+}
+#texto_rodape h1{
+    
+    text-align:center;
+    color: white;
+    font-size: 2.5vh;
+    text-shadow: 2px 2px 5px black;
+    font-family: tahoma;
+    
+}
+

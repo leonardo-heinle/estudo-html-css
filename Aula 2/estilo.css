@@ -1,0 +1,47 @@
+body{
+  background-image: url('img/background.jpg');
+  image-filter: blur(8px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#h1{
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+  color: #00e5ff;
+  text-shadow: 3px 3px 3px black ;
+  text-align: center;
+}
+#h2{
+  font-family: tahoma;
+  font-size: 20px;
+  font-weight: bold;
+  color: #40c4ff;
+  text-shadow: 3px 3px 3px black ;
+}
+#h2-2{
+  font-family: tahoma;
+  font-size: 20px;
+  font-weight: bold;
+  color: #40c4ff;
+  text-shadow: 3px 3px 3px black ;
+}
+#h2-3{
+  font-family: tahoma;
+  font-size: 20px;
+  font-weight: bold;
+  color: #40c4ff;
+  text-shadow: 3px 3px 3px black ;
+}
+#vantagenstxt{
+  font-family: Bahnschrift;
+  font-size: 20px;
+}
+#beneficiostxt{
+  font-family: Bahnschrift;
+  font-size: 20px;
+}
+#funcionalidadestxt{
+  font-family: Bahnschrift;
+  font-size: 20px;
+}
